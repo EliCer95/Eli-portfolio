@@ -1,4 +1,20 @@
+.hero {
+  background: rgba(240, 214, 167, 0.24);
+  text-align: center;
+  padding: 200px;
+}
+
 h1 {
-  color: blue;
-  font-family: 'Playfair Display', serif;
+  font-size: 68px;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PlayfairDisplay", serif;
+}
+
+.btn {
+  margin-top: 50px;
 }
