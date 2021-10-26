@@ -1,20 +1,26 @@
+body {
+  background-image: url("/images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero {
-  background: rgba(240, 214, 167, 0.24);
-  text-align: center;
-  padding: 200px;
+  background: linear-gradient(45deg, #050130ce, #c40c5975);
+  margin-top: 550px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px;
+  border-radius: 30px;
 }
-
-h1 {
-  font-size: 68px;
-  font-weight: 600;
-}
-
 h1,
-h2,
-h3 {
-  font-family: "PlayfairDisplay", serif;
+h2 {
+  color: rgba(255, 255, 255, 0.918);
+  text-align: center;
+  font-family: monospace;
 }
-
-.btn {
-  margin-top: 50px;
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 25px;
 }
