@@ -54,6 +54,12 @@ h2 {
 .sections {
   margin: 150px 20px;
 }
+
+h1 {
+    text-align: center;
+    line-height: 2;
+    font-size: 96px;;
+}
 .container {
   margin-top: 100px;
 }
