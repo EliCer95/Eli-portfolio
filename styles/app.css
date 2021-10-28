@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
 .banner-area {
   width: 100%;
   height: 100vh;
@@ -35,7 +38,7 @@ h2 {
   font-family: monospace;
 }
 
-#learn-more {
+#my-work {
   margin-top: 100px;
   display: inline-block;
   padding: 10px 20px;
@@ -48,6 +51,47 @@ h2 {
   text-align: center;
 }
 
+.sections {
+  margin: 150px 20px;
+}
 .container {
-    
+  margin-top: 100px;
+}
+.project-description {
+  padding: 0px;
+  border: 7px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+  background-color: white;
+}
+
+.project-description h3,
+p {
+  text-align: center;
+}
+
+h3 {
+  line-height: 3;
+  font-family: monospace;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  max-width: 70px;
+}
+
+img.app {
+  max-width: 70%;
+  border-radius: 50%;
+  border: px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  margin: 30px;
 }
