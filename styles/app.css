@@ -52,19 +52,17 @@ h2 {
 }
 
 .sections {
-  margin: 150px 20px;
+  margin: 50px 20px;
 }
 
 h1 {
-    text-align: center;
-    line-height: 2;
-    font-size: 96px;;
+  text-align: center;
+  line-height: 2;
+  font-size: 86px;
 }
-.container {
-  margin-top: 100px;
-}
+
 .project-description {
-  padding: 0px;
+  padding: 10px;
   border: 7px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
   background-color: white;
@@ -100,4 +98,33 @@ img.app {
 footer {
   text-align: center;
   margin: 30px;
+}
+
+@media (max-width: 992px) {
+  img.logo {
+    max-width: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 48px;
+  }
+  .content h2 {
+    font-size: 23px;
+  }
+
+  h1#projects {
+    font-size: 48px;
+  }
+  img.app {
+    display: none;
+  }
+  img.logo {
+    max-width: 30px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
 }
