@@ -24,18 +24,18 @@ body {
   text-align: center;
 }
 
-.content h1,
-h2 {
-  color: white;
-}
-
-.content h1 {
-  font-size: 100px;
+.home-title {
+  font-size: 96px;
   line-height: 1.5;
+  color: white;
+  text-align: center;
+  line-height: 2;
+  font-family: "Playfair Display", serif;
 }
 
-.content h2 {
+.home-subtitle {
   font-family: monospace;
+  color: white;
 }
 
 #my-work {
@@ -55,12 +55,6 @@ h2 {
   margin: 50px 20px;
 }
 
-h1 {
-  text-align: center;
-  line-height: 2;
-  font-size: 86px;
-}
-
 .project-description {
   padding: 10px;
   border: 7px solid black;
@@ -74,8 +68,14 @@ p {
 }
 
 h3 {
-  line-height: 3;
+  margin: 30px;
   font-family: monospace;
+}
+
+h1#projects {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  line-height: 3;
 }
 
 .box {
@@ -97,7 +97,41 @@ img.app {
 
 footer {
   text-align: center;
-  margin: 30px;
+  margin: 80px;
+}
+
+.about-me-intro {
+  font-family: "Playfair Display", serif;
+}
+.about-me-text {
+  text-align: center;
+}
+.image-of-me {
+  display: flex;
+  justify-content: center;
+}
+.me {
+  max-width: 400px;
+  border-radius: 50%;
+}
+
+.about-description {
+  padding: 20px;
+  border: 7px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+  background-color: white;
+}
+
+.my-work-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
