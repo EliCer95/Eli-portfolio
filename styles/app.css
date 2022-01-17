@@ -39,7 +39,7 @@ body {
 }
 
 #my-work {
-  margin-top: 100px;
+  margin: 100px 10px;
   display: inline-block;
   padding: 10px 20px;
   color: white;
@@ -97,7 +97,7 @@ img.app {
 
 footer {
   text-align: center;
-  margin: 80px;
+  margin: 60px;
 }
 
 .about-me-intro {
@@ -139,6 +139,18 @@ a.back-home {
   display: block;
   text-align: center;
   margin: 0 auto;
+}
+
+.contact-container {
+  padding: 20px;
+  border: 7px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+  background-color: white;
+  max-width: 600px;
+}
+
+.link {
+    color: black;
 }
 
 @media (max-width: 992px) {
