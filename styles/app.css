@@ -160,6 +160,10 @@ a.back-home {
   color: black;
 }
 
+.link:hover {
+  color: rgba(48, 47, 47, 0.795);
+}
+
 @media (max-width: 992px) {
   img.logo {
     max-width: 40px;
