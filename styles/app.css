@@ -92,10 +92,15 @@ h1#projects {
 img.app {
   max-width: 70%;
   border-radius: 50%;
-  border: px solid black;
+  border: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
   display: block;
   margin: 0 auto;
+  transition: transform 0.2s;
+}
+
+.app:hover {
+  transform: scale(1.1);
 }
 
 footer {
