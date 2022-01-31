@@ -51,6 +51,9 @@ body {
   text-align: center;
 }
 
+#my-work:hover {
+  color: rgba(182, 172, 172, 0.795);
+}
 .sections {
   margin: 50px 20px;
 }
@@ -135,6 +138,10 @@ footer {
   text-align: center;
 }
 
+.my-work-button:hover {
+  color: rgba(48, 47, 47, 0.795);
+}
+
 a.back-home {
   display: block;
   text-align: center;
@@ -150,7 +157,7 @@ a.back-home {
 }
 
 .link {
-    color: black;
+  color: black;
 }
 
 @media (max-width: 992px) {
