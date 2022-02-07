@@ -196,4 +196,21 @@ a.back-home {
   footer {
     font-size: 12px;
   }
+
+  #my-work {
+    margin: 50px 5px;
+    font-size: 12px;
+
+    padding: 5px 10px;
+  }
+
+  .my-work-button {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+  }
+  .sections {
+    margin: 20px 0px;
+    padding: 0px;
+  }
 }
