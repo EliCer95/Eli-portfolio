@@ -180,7 +180,7 @@ a.back-home {
     font-size: 48px;
   }
   .content h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   h1#projects {
@@ -199,14 +199,13 @@ a.back-home {
 
   #my-work {
     margin: 50px 5px;
-    font-size: 12px;
-
-    padding: 5px 10px;
+    font-size: 15px;
+    padding: 7px 12px;
   }
 
   .my-work-button {
-    font-size: 12px;
-    padding: 5px 10px;
+    font-size: 15px;
+    padding: 7px 12px;
     margin: 0px 5px;
   }
   .sections {
